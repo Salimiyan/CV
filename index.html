@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Resume website html css</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <div class="container">
+      <div class="header">
+        <div class="img-area">
+            <img src="photo_2024-05-31_21-21-03.jpg" alt="">
+        </div>
+        <h1>Amir Ali Salimiyan</h1>
+        <h3>Student at Shamsipour Technical and Vocational College</h3>
+      </div>
+
+      <div class="main">
+        <div class="left">
+          <h2>Personal Information</h2>
+          <p><strong>Name:</strong> Amir Ali Salimiyan</p>
+          <p><strong>Age:</strong> 20</p>
+          <p><strong>Gmail:</strong> amirali16salimiyan@gmail.com</p>
+          <p><strong>Phone:</strong> 09331626893</p>
+          <h2>Education</h2>
+          <h3>Shamsipour Technical and Vocational College</h3>
+          <p>2021-2024</p> <br>
+          <h3>Tehran Institute Of Technology Certificate</h3>
+          <p>For Android pack With Kotlin</p> <br>
+          <h3>Iran Language Institute Course Completion Certificate</h3>
+          <h2>Skills</h2>
+          <ul>
+            <li>Android Developement with Kotlin</li>
+            <li>Speaking English</li>
+            <li>Knowing the types of Electronic Segments</li>
+            <li>Assembly of PCB Boards</li>
+          </ul>
+        </div>
+        
+        <div class="right">
+          <h2>Projects</h2>
+          <h3>Aparat Android Program</h3>
+          <ul>
+            <li>Developed with Kotlin</li>
+          </ul><br>
+          <h3>Online Shop Android Program</h3>
+          <ul>
+            <li>Developed with Kotlin</li>
+            <li>With Login Capabitlity</li>
+          </ul><br>
+          <h3>Glendy Android Game</h3>
+          <ul>
+            <li>Developed with Kotlin</li>
+            <li>Developed With SinglePlayer and MultiPlayer modes</li>
+            <li>Designed difficulty mode for SinglePlayer mode</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+    
+    <button>Print CV</button>
+
+    <script> src="all.min.js"</script>
+    <script>
+      var btn=document.querySelector("button");
+      btn.onclick=()=>{
+        window.print();
+      }
+    </script>
+</body>
+</html>
+
